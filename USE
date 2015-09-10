@@ -1,0 +1,30 @@
+Network Scanner
+This is the network discovery Plus monitoring tool
+To Run this tool prerequisites are-
+1.linux machine
+2.nmap 
+3.python 2.5 + 
+
+
+
+
+To run the tool you need to run only single file i.e final.sh
+
+####################################for root user####################################
+chmod +x final.sh
+bash final.sh
+
+###################################For non root user##########################################
+sudo chmod +x final_sudo.sh
+bash final.sh	
+
+
+NOTE::: report is in report folder
+################################################################################################################
+Last monitorings script is customized for a single IP and some particular ports that can be changed in monitor.sh
+IP can be changed in $address in 8th line in place of 192.168.43.26 and ports can be changed at line 22 in place of 22,25,80
+
+
+
+
+
